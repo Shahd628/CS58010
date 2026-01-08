@@ -205,3 +205,39 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+__pycache__
+gfedala
+*.pt
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Ignore wandb (Weights&Biases) logs
+wandb
+
+# CUDA typical ignorable files
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
